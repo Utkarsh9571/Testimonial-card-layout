@@ -27,6 +27,9 @@ body{
     padding: 1.75em;
     border-radius: 0.5em;
     box-shadow: 3em 3em 2em hsl(0, 0%, 81%);
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 90%;
 }
 .jonathan{
     grid-area: 1 / 3 / 2 / 4;
@@ -70,14 +73,6 @@ img{
     width: auto;
     height: 2em;
     border-radius: 50%;
-}
-.quotation{
-    border: none;
-    border-radius: 0;
-    height: auto;
-    width: 10%;
-    margin-top: -1em;
-    margin-left: 15em;
 }
 h1, h2{
     margin: 0 1em;
@@ -127,8 +122,5 @@ p{
     .container{
         display: flex;
         flex-direction: column;
-    }
-    .quotation{
-        margin-left: 5em;
     }
 }
